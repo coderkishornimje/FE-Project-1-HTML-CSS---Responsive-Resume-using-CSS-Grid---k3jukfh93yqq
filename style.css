@@ -7,3 +7,170 @@
 }
 
 /* Write CSS code below */
+.main-content{
+  display: grid;
+  grid-template-columns: 300px 700px;
+  height: 1000px;
+  background-color:whitesmoke;
+}
+.left-section{
+  display: grid;
+  grid-column: 300px;
+  background-color: black;
+  color:white
+}
+.right-section{
+  display: grid;
+  grid-column: 300px 1000px;
+  background-color:whitesmoke
+}
+.left-content{
+  padding: 1rem;
+}
+img{
+  display: block;
+  justify-items: center;
+  /* height: 10% ;*/
+  width: 60% ; 
+  margin: auto; 
+  border-radius: 30%;
+  border: 5px solid white;
+}
+#Name{
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  padding: 0.8rem;
+}
+#designation{
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+}
+#description{
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  cursor: pointer;
+  color: rgb(103, 103, 231);
+  font-size: 20px;
+}
+/* .contact-icon{
+  /* display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  
+} */
+.skills{
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+.skill-name{
+  font-size: 0.65rem;
+  font-weight: 0.65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.progress-bar {
+  width: 80%;
+  background-color: rgb(44, 43, 43);
+  margin-top: 5%;
+}
+
+.myBar1 {
+  width: 90%;
+  height: 4px;
+  border: 1px white solid;
+  background-color:white;
+}
+.myBar2 {
+  width: 80%;
+  height: 4px;
+  border: 1px white solid;
+  background-color:white;
+}
+.myBar3 {
+  width: 70%;
+  height: 4px;
+  border: 1px white solid;
+  background-color:white;
+}
+.myBar4 {
+  width: 60%;
+  height: 4px;
+  border: 1px white solid;
+  background-color:white;
+}
+.myBar5 {
+  width: 50%;
+  height: 4px;
+  border: 1px white solid;
+  background-color:white;
+}
+.myBar6 {
+  width: 40%;
+  height: 4px;
+  border: 1px white solid;
+  background-color:white;
+}
+/*******************Right Section part css******************/
+/* .right-section{
+  padding: 2rem 3rem 2rem 3rem;  
+} */
+
+.right-main-content{
+  padding: 2rem 3rem 2rem 3rem;
+}
+.right-title{
+  text-transform: uppercase;
+  font-weight:700;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  letter-spacing: 1px;
+}
+.sub-heading{
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+.about-content{
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.education-content{
+  font-size: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;  
+}
+.experience-content{
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.main-sub-head{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
