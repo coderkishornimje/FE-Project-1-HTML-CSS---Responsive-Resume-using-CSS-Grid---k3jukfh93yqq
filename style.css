@@ -11,13 +11,13 @@
   display: grid;
   grid-template-columns: 300px 700px;
   width: 90%;
-  height: 1000px;
+  min-height: 1000px;
   background-color:whitesmoke;
   margin: 20px auto;
 }
 .left-section{
   display: grid;
-  grid-template-columns: 300px;
+  grid-column: 300px;
   background-color: black;
   color:white
 }
@@ -90,11 +90,6 @@
   margin-bottom: 5%;
   padding-bottom: 0.5rem;
 }
-.myBar1 {
-  width: 80%;
-  background-color: rgb(44, 43, 43);
-  margin-top: 5%;
-}
 
 .progress-bar {
   width: 90%;
@@ -102,35 +97,45 @@
   border: 1px white solid;
   background-color:white;
 }
+.myBar1 {
+  width: 80%;
+  background-color: rgb(44, 43, 43);
+  margin: 5% 0% 5% 0%;
+}
 .myBar2 {
   width: 80%;
   height: 4px;
   border: 1px white solid;
   background-color:white;
+  margin: 5% 0% 5% 0%;
 }
 .myBar3 {
   width: 70%;
   height: 4px;
   border: 1px white solid;
   background-color:white;
+  margin: 5% 0% 5% 0%;
 }
 .myBar4 {
   width: 60%;
   height: 4px;
   border: 1px white solid;
   background-color:white;
+  margin: 5% 0% 5% 0%;
 }
 .myBar5 {
   width: 50%;
   height: 4px;
   border: 1px white solid;
   background-color:white;
+  margin: 5% 0% 5% 0%;
 }
 .myBar6 {
   width: 40%;
   height: 4px;
   border: 1px white solid;
   background-color:white;
+  margin: 5% 0% 5% 0%;
 }
 /*******************Right Section part css******************/
 /* .right-section{
