@@ -89,13 +89,13 @@
   margin-bottom: 5%;
   padding-bottom: 0.5rem;
 }
-.progress-bar {
+.myBar1 {
   width: 80%;
   background-color: rgb(44, 43, 43);
   margin-top: 5%;
 }
 
-.myBar1 {
+.progress-bar {
   width: 90%;
   height: 4px;
   border: 1px white solid;
