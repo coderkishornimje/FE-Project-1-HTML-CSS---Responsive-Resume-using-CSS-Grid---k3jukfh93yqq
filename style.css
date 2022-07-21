@@ -84,9 +84,10 @@
 .skill-name{
   font-size: 0.65rem;
   font-weight: 0.65rem;
-  text-align: center;
+  text-align:left;
   margin-top: 5%;
   margin-bottom: 5%;
+  padding-bottom: 0.5rem;
 }
 .progress-bar {
   width: 80%;
