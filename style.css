@@ -10,8 +10,10 @@
 .main-content{
   display: grid;
   grid-template-columns: 300px 700px;
+  width: 90%;
   height: 1000px;
   background-color:whitesmoke;
+  margin: 20px auto;
 }
 .left-section{
   display: grid;
@@ -36,14 +38,14 @@ img{
   border-radius: 30%;
   border: 5px solid white;
 }
-#Name{
+.Name{
   font-family: 'Poppins';
   font-style: normal;
   font-size: 1.2rem;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.02px;
   padding: 0.8rem;
 }
 #designation{
