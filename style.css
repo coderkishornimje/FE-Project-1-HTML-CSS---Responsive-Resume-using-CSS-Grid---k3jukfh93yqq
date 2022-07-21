@@ -55,9 +55,7 @@
   padding-bottom: 0.5rem;
 }
 .description{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   font-size: 0.75rem;
   padding: 1rem;
 }
