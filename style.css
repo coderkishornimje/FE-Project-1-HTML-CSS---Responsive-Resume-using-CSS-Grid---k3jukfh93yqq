@@ -17,14 +17,16 @@
 }
 .left-section{
   display: grid;
-  grid-column: 300px;
+   grid-column: span 1fr;
+   
   background-color: black;
   color:white
 }
 .right-section{
   display: grid;
   width: 90%;
-  grid-column: 700px;
+   grid-column: span 2fr;
+   
   background-color:whitesmoke
 }
 .left-content{
