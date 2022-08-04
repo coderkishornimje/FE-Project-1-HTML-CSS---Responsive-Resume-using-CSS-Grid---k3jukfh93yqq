@@ -17,7 +17,7 @@
 }
 .left-section{
   display: grid;
-   grid-column: 1/span 300px;
+   grid-column: 1/span 1fr;
    
   background-color: black;
   color:white
@@ -25,7 +25,7 @@
 .right-section{
   display: grid;
   width: 90%;
-   grid-column: 1/span 700px;
+   grid-column: 1/span 2fr;
    
   background-color:whitesmoke
 }
